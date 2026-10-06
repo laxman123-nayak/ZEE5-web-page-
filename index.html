@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ZEE-5 page</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+</head>
+<body>
+<main id="page1div">
+    <nav id="hometvshowdiv" aria-label="Breadcrumb">
+        <p class="div1text">Home <i class="fa-solid fa-angle-right rightanglepink"></i></p>
+        <p class="div1text">TV Shows <i class="fa-solid fa-angle-right rightanglepink"></i></p>
+        <p class="div1text">Prema Entha Maduram</p>
+    </nav>
+
+    <h1 id="Episodesheading">Prema Entha Maduram Episodes</h1>
+    <hr class="line">
+
+    <div id="seasondiv">
+        <select id="selectseason" aria-label="Season">
+            <option value="Season 1">Season 1</option>
+            <option value="Season 2">Season 2</option>
+            <option value="Season 3">Season 3</option>
+            <option value="Season 4">Season 4</option>
+        </select>
+        <label class="TabularGrid"><input type="radio" name="view" value="Tabular View" class="circle"> Tabular View</label>
+        <label class="TabularGrid"><input type="radio" name="view" value="Grid View" class="circle"> Grid View</label>
+    </div>
+
+    <div id="sortingdiv">
+        <div class="sortgroup">
+            <span class="Sorttext">Sort:</span>
+            <select id="Orders" aria-label="Sort order">
+                <option value="asc">↓ Ascending</option>
+                <option value="desc">↑ Descending</option>
+            </select>
+            <div id="searchouterdiv">
+                <i class="fa-solid fa-magnifying-glass" id="searchicon"></i>
+                <input type="text" placeholder='"Num"' id="searchnumber" aria-label="Episode number">
+            </div>
+        </div>
+
+        <div class="jumpgroup">
+            <span class="Sorttext">Jump to:</span>
+            <div id="nearepisodesdivs">
+                <a href="link" class="boxs"><div class="Episodesranges">Episodes 1-20</div></a>
+                <a href="link" class="boxs"><div class="Episodesranges">Episodes 20-40</div></a>
+                <a href="link" class="boxs"><div id="Episodeshighlited">Episodes 40-60</div></a>
+                <a href="link" class="boxs"><div class="Episodesranges">Episodes 60-80</div></a>
+                <a href="link" class="boxs"><div class="Episodesranges">Episodes 80-100</div></a>
+            </div>
+            <button id="moreicon" aria-label="More episodes"><i class="fa-solid fa-chevron-right"></i></button>
+        </div>
+    </div>
+
+    <section class="movielistdiv">
+        <div class="imagediv thumb1"><i class="fa-solid fa-play playicon"></i></div>
+        <div class="episodetitlediv">
+            <h2 class="episodename">Prema Yuddham</h2>
+            <p class="episodesdetails">S1 E55 . 40m . 18 Oct 2025</p>
+            <p class="episodediscription">Raghav goes to the school and recalls past memories upon seeing Narmada. Sailaja eavesdrops on Rekha and Narmada’s conversation and lies to Raghav. Later, Rekha feels happy when she gets a job.</p>
+        </div>
+        <div class="downloaddiv"><i class="fa-solid fa-download"></i></div>
+    </section>
+
+    <section class="movielistdiv">
+        <div class="imagediv thumb2"><i class="fa-solid fa-play playicon"></i></div>
+        <div class="episodetitlediv">
+            <h2 class="episodename">Ennallo Vechina Hrudayam</h2>
+            <p class="episodesdetails">S1 E56 . 42m . 24 Oct 2025</p>
+            <p class="episodediscription">Tripura, a school teacher, becomes the saviour of a trauma-ridden businessman, Bala. Will Tripura be able to protect and nurture Bala while guiding him in rediscovering his identity?.</p>
+        </div>
+        <div class="downloaddiv"><i class="fa-solid fa-download"></i></div>
+    </section>
+
+    <section class="movielistdiv">
+        <div class="imagediv thumb3"><i class="fa-solid fa-play playicon"></i></div>
+        <div class="episodetitlediv">
+            <h2 class="episodename">Sravana Lakshmi</h2>
+            <p class="episodesdetails">S1 E57 . 38m . 28 Oct 2025</p>
+            <p class="episodediscription">The cast of the shows Maa Annayya and Jabilli Kosam Aakashamalle observe ‘Sravana Masam’ by celebrating ‘Varalakshmi Vratham with the people of Adoni and entertaining them with special performances..</p>
+        </div>
+        <div class="downloaddiv"><i class="fa-solid fa-download"></i></div>
+    </section>
+</main>
+</body>
+</html>
